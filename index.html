@@ -21,12 +21,12 @@
         let bulb = document.getElementById('bulb');
         btn.addEventListener('click', toggleBulb);
         function toggleBulb(e){
-            if(bulb.src.includes('on.jpg')){
+            if(bulb.src.includes('On.jpg')){
                 bulb.src = 'images/Bulb-off.jpg';
                 btn.textContent = 'Turn On';
                 btn.style.backgroundColor = 'green';
             }else{
-                bulb.src = 'images/Bulb-on.jpg';
+                bulb.src = 'images/Bulb-On.jpg';
                 btn.textContent = 'Turn Off';
                 btn.style.backgroundColor = 'red';
             }
